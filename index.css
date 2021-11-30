@@ -1,0 +1,112 @@
+.container{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.popularPosts{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.popularPost{
+	width: 48%;
+	height: 250px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.post1{
+	background-image: url('image/image1.jpg');
+	background-size: cover;
+}
+
+.post2{
+	background-image: url('image/image2.jpg');
+	background-size: cover;
+}
+
+.popularPost .body{
+	width: 100%;
+	margin: 15px 15px;
+}
+
+.popularPost .body span{
+	margin-right: 30px;
+}
+
+.badge{
+	padding: 5px 15px;
+	color: white;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+
+.createDate{
+	font-size: 13px;
+	color: white;
+}
+
+.title{
+	margin-top: 10px;
+}
+
+.title h4{
+	color: yellow;
+	margin: 0;
+	text-transform: capitalize;
+}
+
+.posts{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.post{
+	width: 32%;
+	height: 200px;
+
+}
+
+.post img{
+	width: 100%;
+	height: 200px;
+}
+.post .widgets{
+	margin-top: 10px;
+	
+}
+
+.post .title p{
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.post .widgets span{
+	margin-right: 25px;
+}
+
+.recentPosts h2{
+	margin: 25px 0;
+}
+
+.bg1{
+	background-color: orange;
+}
+
+.bg2{
+	background-color: purple;
+}
+
+.bg3{
+	background-color: green;
+}
+
+.text-grey{
+	color: grey;
+}
+
